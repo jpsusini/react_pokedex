@@ -11,7 +11,7 @@ const PokemonCard  = ({id,name,img,type,base_experience}) => {
                 <img src={img} alt={name} />
             <div className="detail-wrapper">
                 <h3>{name}</h3>
-                <medium>type: {type}</medium>
+                <small>type: {type}</small>
                 <small>base_experience: {base_experience}</small>
             </div>
         </div>
